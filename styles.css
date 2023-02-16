@@ -1,0 +1,56 @@
+body{
+  max-width: 1920px;
+  width: 100%;
+  margin: 0;
+}
+.logo{
+  max-width: 100% !important;
+  width: 200px !important;
+  height: auto !important;
+  margin-bottom: -35px;
+  margin-top: -30px;
+}
+/*Background-Box Holding Image and Texts*/
+.Background-Box{
+  position: relative;
+}
+.bg-image{
+  height: 450px;
+  width: 100%; 
+  border-width: 1px;
+}
+.donate{
+  color:#c29b5d;
+  font-weight: bold;
+  text-align: right;
+}
+.lend{
+  font-size: 34px;
+  font-weight: bold;
+  text-align: right;a
+  font-family: 'Baskervville', serif;
+}
+.content{
+  position: absolute;
+  top: 190px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.start-donating{
+  background-color: #c29b5d;
+  color: white;
+  height: 60px;
+  width: 200px;
+  border: none; 
+  font-weight: bold;
+  font-size: 15px;
+  border-width: 1px;
+  border-top-left-radius: 35px 35px;
+  border-bottom-left-radius: 35px 35px;
+  float: right;
+}
+.start-donating:hover{
+  color: #c29b5d;
+  background-color: white;
+}
